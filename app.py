@@ -81,5 +81,13 @@ if predict_button:
     on_predict_button_clicked()
 
 # Add Made by statement
-st.text("Made by - VNBL")
 
+st.text("\n---------------------------------- |Made by - VNBL|--------------------------------------------------------")
+st.subheader("Contact Information")
+# st.write("Made by: VNBL")
+st.write("GitHub: [Vaibhavlanjewar](https://github.com/Vaibhavlanjewar/)")
+st.write("LinkedIn: [Vaibhav Lanjewar](https://www.linkedin.com/in/vaibhavlanjewar/)")
+st.write("--------------------------------------------------------------------------------------------------------------")
+
+
+# Vnbl 
