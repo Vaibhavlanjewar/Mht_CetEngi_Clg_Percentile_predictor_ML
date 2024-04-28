@@ -1,11 +1,9 @@
 import pandas as pd
 import pickle
 import streamlit as st
-import ipywidgets as widgets
 
 # Assuming 'data.csv' contains your data
 df = pd.read_csv('mht_cet2.csv')
-
 
 # Load the trained Decision Tree Regressor model
 with open('C:/Users/vlanj/OneDrive/Desktop/linearModel/decision_tree_model.pkl', 'rb') as file:
@@ -88,6 +86,3 @@ st.subheader("Contact Information")
 st.write("GitHub: [Vaibhavlanjewar](https://github.com/Vaibhavlanjewar/)")
 st.write("LinkedIn: [Vaibhav Lanjewar](https://www.linkedin.com/in/vaibhavlanjewar/)")
 st.write("--------------------------------------------------------------------------------------------------------------")
-
-
-# Vnbl 
