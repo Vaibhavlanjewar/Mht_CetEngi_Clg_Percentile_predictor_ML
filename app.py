@@ -3,8 +3,7 @@ import pickle
 import streamlit as st
 import ipywidgets as widgets
 
-# Assuming 'data.csv' contains your data
-df = pd.read_csv('mht_cet2.csv')
+
 
 
 # Load the trained Decision Tree Regressor model
