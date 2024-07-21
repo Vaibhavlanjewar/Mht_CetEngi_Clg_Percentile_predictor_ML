@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 import streamlit as st
-import ipywidgets as widgets
+
 
 
 df=pd.read_csv('mht_cet.csv')
