@@ -4,8 +4,7 @@ import streamlit as st
 import ipywidgets as widgets
 
 
-
-
+df=pd.read_csv('mht_cet.csv')
 # Load the trained Decision Tree Regressor model
 with open('C:/Users/vlanj/OneDrive/Desktop/linearModel/decision_tree_model.pkl', 'rb') as file:
     dt_regressor = pickle.load(file)
