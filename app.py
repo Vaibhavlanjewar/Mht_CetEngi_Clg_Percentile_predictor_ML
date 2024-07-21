@@ -4,7 +4,7 @@ import streamlit as st
 
 
 
-df=pd.read_csv('mht_cet.csv')
+df=pd.read_csv('mht_cet2.csv')
 # Load the trained Decision Tree Regressor model
 with open('C:/Users/vlanj/OneDrive/Desktop/linearModel/decision_tree_model.pkl', 'rb') as file:
     dt_regressor = pickle.load(file)
